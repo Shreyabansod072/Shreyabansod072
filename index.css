@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #0052cc;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+.main-header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.navbar {
+    background-color: #0052cc;
+    padding: 1rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.home-section {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #e8f4fc;
+}
+
+.home-section .btn {
+    background-color: #0078d7;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-section .btn:hover {
+    background-color: #0052cc;
+}
+
+
+.about-section {
+    padding: 3rem 0;
+    background-color: #f5f5f5;
+}
+
+.about-section img {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+
+.services-section {
+    padding: 3rem 0;
+    background-color: #e8f4fc;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.contact-section {
+    padding: 3rem 0;
+    background-color: #f5f5f5;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0052cc;
+}
+
+
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
